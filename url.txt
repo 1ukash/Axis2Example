@@ -1,0 +1,2 @@
+http://localhost:8080/axis2/services/HelloService/sayHello?name=Tom
+%AXIS2_HOME%\bin\wsdl2java -uri resources\META-INF\StockQuoteService.wsdl -p samples.quickstart.clients -d jibx -s -uw -o build\client
